@@ -850,10 +850,10 @@ Prerequisites: Existing student records do not have the names or IDs that will b
    * Expected: A new student record with the provided details is added to the list. Details of the student record are shown in the status message. Since exam grades have been provided, the student card UI shows the exam scores for each exam that has been provided. 
 
 <ol start="3">
-<li>Test case: `addStudent nm/John Doe id/928C class/1A pn/Bob Doe hp/98765432 e/bobdoe@gmail.com exam/CA1 50`</li>
+<li>Test case: <code>addStudent nm/John Doe id/928C class/1A pn/Bob Doe hp/98765432 e/bobdoe@gmail.com exam/CA1 50</code></li>
    * Expected: A new student record with the provided details is added to the list. Details of the student record are shown in the status message. This test case includes parents' details as well.
 
-<li>Test case: `addStudent nm/Jonathan Lim id/abc2 class/2A`</li> 
+<li>Test case: <code>addStudent nm/Jonathan Lim id/abc2 class/2A</code></li> 
    * Expected: The command entered by the user is highlighted red. The status message shows an error: "Id should only contain 3 digits and 1 character". "abc2" is an invalid value for the ID as Class-ify only accepts the last 3 numbers and last letter of a student's ID.
 </ol>
 
@@ -921,7 +921,7 @@ Prerequisites for Test case 1: Classify currently shows the parent details in ea
 Prerequisites for Test case 2: Classify currently hide the parent details in each student card UI.
 
 <ol start="2">
-<li>Test case: `toggleView`</li>
+<li>Test case: <code>toggleView</code></li>
     * Expected: Shows parent details in each student card UI.
 </ol>
 
