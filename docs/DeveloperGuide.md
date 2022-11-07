@@ -849,7 +849,7 @@ Prerequisites: Existing student records do not have the names or IDs that will b
 2. Test case: `addStudent nm/Alex Yeoh id/123A class/2B exam/CA1 60 exam/CA2 70`
    * Expected: A new student record with the provided details is added to the list. Details of the student record are shown in the status message. Since exam grades have been provided, the student card UI shows the exam scores for each exam that has been provided. 
 
-<div style="page-break-after: always;"></div>
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 3. Test case: `addStudent nm/John Doe id/928C class/1A pn/Bob Doe hp/98765432 e/bobdoe@gmail.com exam/CA1 50`
    * Expected: A new student record with the provided details is added to the list. Details of the student record are shown in the status message. This test case includes parents' details as well.
@@ -919,6 +919,7 @@ Prerequisites for Test case 1: Classify currently shows the parent details in ea
    * Expected: Hides parent details in each student card UI.
 
 Prerequisites for Test case 2: Classify currently hide the parent details in each student card UI.
+
 2. Test case: `toggleView`
     * Expected: Shows parent details in each student card UI.
 
